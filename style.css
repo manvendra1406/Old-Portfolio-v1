@@ -1,0 +1,89 @@
+
+    body {
+    display: flex;
+    }
+    
+    .right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    }
+
+    html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    } 
+    .f1 {
+        position: relative;
+        background-color:#1e2a3a;
+        width: 50%;
+        height: 100%;
+    }
+
+    .f2 h1 {
+        font-size: 40px;
+        letter-spacing: 0.2em;
+        margin-bottom: 0%;
+    }
+
+  
+    .f2 p {
+        margin-top: 1%;
+        letter-spacing: 0.2em;
+        font-family: jost, sans-serif;
+    }
+
+    .f2 {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        padding-left: 16%; 
+        padding-bottom: 2%;  
+        font-family: Playfair Display, serif;
+        background-color:#ffffff;
+    }
+
+    .f3 {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        padding-left: 16%;
+        align-items: center;
+        font-family: jost, sans-serif;
+        background-color:#ffffff;
+    }
+
+    .f3 a {
+
+        padding-right: 36px;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+
+.slide {
+    transition: opacity 0.3s ease-in-out;
+    position: absolute;
+    opacity: 0; /* hidden by default */
+    height: 100%;
+    width: 100%;    
+    object-fit: cover;
+}
+
+.slide.active {
+  opacity: 1; /* only the active one shows */
+}
+
+.social-icons {
+    margin-right: auto;
+}
+
+.social-icons a {
+    padding-right: 5px;
+}
+
+

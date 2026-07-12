@@ -1,0 +1,94 @@
+html, body{
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.navv {
+    font-family: jost, sans-serif;
+    padding-left: 260px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffffff;
+    .linkz {
+        display: flex;
+        gap: 10px;
+        padding: 20px;
+    }
+}
+
+
+.profile-image {
+    margin-left: auto;
+    height: auto;
+    
+}
+
+.below-photo {
+    padding-top: 1rem;
+    margin-left: 80%;
+    width: 100%;
+    height: 100%;
+    background-color:#ffffff;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffffff;
+    height: auto;
+
+    .l1{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2rem;
+        padding:15px;
+        width: 50%;
+        height: 100%;
+        background-color:#ffffff;
+    }
+
+
+
+    .r1 {
+        h1{
+            font-size: 25px;
+            font-family: jost, sans-serif;
+        }
+
+        p {
+            font-family: jost, sans-serif;
+            font-weight: 300;
+            line-height: 1.8;
+        }
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+        background-color:#ffffff;
+        padding: 2rem;
+    }
+
+    
+}
+
+.fo{
+    font-family: jost, sans-serif;
+    padding: 5px;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffffff;
+
+    .Follow i {
+        opacity: 1;
+        color:black;
+    }
+}
